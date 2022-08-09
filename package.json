@@ -1,0 +1,23 @@
+{
+  "name": "xml-jsx",
+  "version": "0.1.0",
+  "description": "XML JSX runtime",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsup src/ -d runtime/ --dts --format cjs,esm --minify --keep-names --clean"
+  },
+  "main": "runtime/index.js",
+  "module": "runtime/index.mjs",
+  "types": "runtime/index.d.ts",
+  "files": ["runtime/"],
+  "keywords": [],
+  "author": "${Mr.DJA}",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^6.2.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
