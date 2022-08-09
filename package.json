@@ -4,7 +4,7 @@
   "description": "XML JSX runtime",
   "scripts": {
     "prepare": "npm run build",
-    "build": "tsup src/ -d runtime/ --dts --format cjs,esm --minify --keep-names --clean"
+    "build": "tsup src/ -d runtime/ --dts --format cjs,esm --splitting --minify --keep-names --clean"
   },
   "main": "runtime/index.js",
   "module": "runtime/index.mjs",
