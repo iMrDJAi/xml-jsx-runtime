@@ -17,7 +17,7 @@
     "tsup": "^6.2.1",
     "typescript": "^4.7.4"
   },
-  "dependencies": {
-    "xml-js": "^1.6.11"
+  "peerDependencies": {
+    "xml-js": "1.x"
   }
 }
