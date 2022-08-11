@@ -1,7 +1,7 @@
 {
-  "name": "xml-jsx",
+  "name": "xml-jsx-runtime",
   "version": "0.1.0",
-  "description": "XML JSX runtime",
+  "description": "A custom autoamtic JSX runtime that transforms JSX into xml-js's non-compact objects that can be converted into plain XML strings.",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsup src/ -d runtime/ --dts --format cjs,esm --splitting --minify --keep-names --clean"
