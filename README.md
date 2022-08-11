@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/xml-jsx-runtime)](https://www.npmjs.com/package/xml-jsx-runtime) [![GitHub Repo stars](https://img.shields.io/github/stars/iMrDJAi/xml-jsx-runtime?style=social)](https://github.com/iMrDJAi/xml-jsx-runtime)
 
-A custom [autoamtic](https://babeljs.io/docs/en/babel-plugin-transform-react-jsx#react-automatic-runtime) JSX runtime that transforms JSX into [xml-js](https://github.com/nashwaan/xml-js)'s non-compact objects that can be converted into plain XML strings.
+A custom [automatic](https://babeljs.io/docs/en/babel-plugin-transform-react-jsx#react-automatic-runtime) JSX runtime that transforms JSX into [xml-js](https://github.com/nashwaan/xml-js)'s non-compact objects that can be converted into plain XML strings.
 
 ***
 ## Installation:
