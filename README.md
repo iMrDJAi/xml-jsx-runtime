@@ -15,7 +15,7 @@ npm install xml-jsx-runtime -D
 You also need to install [xml-js](https://github.com/nashwaan/xml-js) independently in order to convert your XML non-compact objects into strings:
 
 ```bash
-npm install xml-jsx-runtime -S
+npm install xml-js -S
 ```
 
 ## Usage:
